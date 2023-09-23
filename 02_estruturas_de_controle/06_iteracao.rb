@@ -23,3 +23,11 @@ end
 10.times do 
     puts "O palmeiras nao tem Mundial!"
 end
+
+#LOOP (DO While)
+cont = 1 
+loop do 
+    puts cont
+    break if cont == 10 # ele é diferete do while pois ele mostro o ultimo numero
+    cont += 1
+end

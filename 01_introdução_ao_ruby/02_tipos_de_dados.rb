@@ -1,10 +1,10 @@
-a = 1
-b = 1.5
-c = true
-d = "Ja acabou jessica!"
-e = [1,2,2,4]
-f =:welcome
-g = {nome:"Julio",
+a = 1 # interos
+b = 1.5 # Floats
+c = true # booleanos
+d = "Ja acabou jessica!" # strings
+e = [1,2,2,4]  # arrays
+f =:welcome #symbols
+g = {nome:"Julio", # Hash
 idade: "27"}
 
 puts a.class
