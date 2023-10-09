@@ -70,3 +70,15 @@ tamanho = texto.length # Obtém o tamanho da string
 Métodos em Ruby são uma parte fundamental da programação orientada a objetos em Ruby, permitindo que você crie código modular e 
 reutilizável, o que é uma prática importante para escrever código eficiente e legível.
 """
+
+def sinal(color = "vermelho")
+if (color == "vermelho")
+  puts "pare o sinale sta vermelho"
+  elsif (color == "amarelo")
+    puts "atençao o sinal esta amarelo"
+  elsif color == "verde"
+    puts "O sinal eta verde pode passar"
+  else
+    puts "informe um valor correto"
+  end
+end
