@@ -1,0 +1,6 @@
+source 'https://rubygems.org' #infromar onde esta o repositorio
+
+gem 'rails', '4.2.5' #informar a versao do rails
+gem 'sqlite3', '1.3.11' #informar a versao do sqlite3
+#assim como nesse exemplo
+#depois  de salvar o arquivo, executar o comando bundle install
