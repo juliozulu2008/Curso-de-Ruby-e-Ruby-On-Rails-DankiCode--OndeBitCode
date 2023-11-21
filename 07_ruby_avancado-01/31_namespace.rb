@@ -16,7 +16,7 @@ module Football
   end
 end
 
-module VideioGame
+module VideoGame
   class Player
     def self.info
       puts "Um jogador de video game"
@@ -26,4 +26,4 @@ end
 
 
 Football::Player.info
-VideioGame::Player.info
+VideoGame::Player.info
